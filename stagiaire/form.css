@@ -1,0 +1,94 @@
+  body {
+    font-family: "Open Sans";
+    font-size: 14px;
+    background-image: url(../image/n.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .container {
+    width: 500px;
+    margin: 25px auto;
+  }
+
+  .form {
+    width: 60%;
+    height: fit-content;
+    border-radius: 20px;
+    max-width: calc(100vw - 40px);
+    margin: auto auto;
+    margin-top: 1%;
+    box-shadow: 0 0 40px -10px #000;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    padding: 0.5px;
+    background-color: rgb(255 255 255 / 72%);
+    color: black;
+    font-size: 15px;
+  }
+
+  .form label {
+    font-size: 17px;
+    margin-bottom: 5px;
+    text-transform: capitalize;
+  }
+
+  span {
+    position: absolute;
+    bottom: -15px;
+    right: -20px;
+    background: #a0a0a3;
+    color: #fff;
+    width: 320px;
+    padding: 16px 4px 16px 0;
+    border-radius: 6px;
+    font-size: 13px;
+    box-shadow: 10px 10px 40px -14px #000;
+    margin: 0 5px 0 5px
+  }
+
+  label, input, button, select {
+    border: 2;
+    margin-bottom: 5px;
+    display: block;
+    width: 100%;
+  }
+
+  select, input {
+    line-height: 25px;
+    color: #000;
+    background-color: transparent;
+    border: solid 1px;
+    padding: 8px;
+  }
+
+  button {
+    height: 30px;
+    line-height: 30px;
+    background: #e67e22;
+    color: #fff;
+    margin-top: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    width: fit-content;
+    font-size: 18px;
+    text-transform: uppercase;
+    height: fit-content;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  h1 {
+    margin: 10px 0;
+    padding-bottom: 10px;
+    width: 300px;
+    color: #313a38;
+    border-bottom: 3px solid #78788c;
+    position: center;
+  }
+  b {
+    color: #2315e2a6;
+  }

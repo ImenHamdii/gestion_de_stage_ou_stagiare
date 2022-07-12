@@ -1,0 +1,98 @@
+body {
+  font-family: "Open Sans";
+  font-size: 14px;
+  background-image: url(../image/uy.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+form {
+  background-color: rgb(255 255 255 / 72%);
+  width: 60%;
+  height: fit-content;
+  border-radius: 8px;
+  margin: auto auto;
+  margin-top: 10%;
+  box-shadow: 0 0 40px -5px #000;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  position: relative;
+  padding: 0.5px;
+  color: rgb(214, 216, 216);
+  border-radius: 20px;
+  align-items: center;
+  
+}
+
+.form label {
+  font-size: 17px;
+  margin-bottom: 5px;
+  text-transform: capitalize;
+}
+
+label, input, button {
+  border: 2;
+  margin-bottom: 5px;
+  display: block;
+  width: 100%;
+}
+
+input {
+  line-height: 25px;
+  color: #000;
+  background-color: transparent;
+  border: solid 1px;
+  padding: 8px;
+}
+
+
+button {
+  margin: 8px 0 0;
+  font-family: 'Montserrat', sans-serif;
+  border: 2px solid #78788c;
+  background: #cbcbee;
+  color: #5a5a6e;
+  font-size: 18px;
+  text-transform: uppercase;
+  height: fit-content;
+  padding-left: 25px;
+  padding-right: 25px;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  width: fit-content;
+}
+
+span {
+  position: absolute;
+  bottom: -15px;
+  right: -20px;
+  background: #8c8c99;
+  color: #fff;
+  width: 150px;
+  padding: 10px 80px 10px 20px;
+  border-radius: 6px;
+  font-size: 13px;
+  box-shadow: 10px 10px 40px -14px #000;
+  margin: 0 5px 0 5px;
+}
+
+input {
+  width: 100%;
+  background: 0;
+  border-bottom: 2px solid #bebed2
+}
+
+input:focus {
+  border-bottom: 2px solid #78788c
+}
+
+h1 {
+  margin-bottom: 25px;
+  padding-bottom: 10px;
+  width: 300px;
+  color: #313a38;
+  border-bottom: 3px solid #78788c;
+  position: center;
+}
